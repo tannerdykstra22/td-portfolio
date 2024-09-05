@@ -3,6 +3,10 @@ body {
     font-family: monospace;
 }
 
+nav {
+    height: 200px;
+}
+
 .profile-name {
     color: wheat;
     font-size: 15px;
