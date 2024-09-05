@@ -3,11 +3,11 @@ body {
     font-family: monospace;
 }
 
-nav {
-    height: 10rem;
+header {
     display: flex;
-    position: relative;
+    height: 10rem
 }
+
 
 .profile-name {
     color: #4a0404;
@@ -37,7 +37,7 @@ nav {
 }
 
 article h3 {
-    font-size: 25px;
+    font-size: 30px;
     color: #7C3030;
     padding-left: 5rem;
 }
@@ -48,13 +48,15 @@ article figure {
 
 .bio {
     display: flex;
-    font-size: 18px;
+    font-size: 20px;
     float: right;
     padding-left: 25rem;
     color: #7C3030;
-
 }
 
-
-
-/* Brown colors =  */
+.contact-info ul {
+    display: flex;
+    font-size: 20px;
+    color: #7C3030;
+    gap: 2px;
+}
