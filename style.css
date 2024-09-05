@@ -4,24 +4,29 @@ body {
 }
 
 nav {
-    height: 200px;
+    height: 10rem;
+    display: flex;
+    position: relative;
 }
 
 .profile-name {
-    color: wheat;
+    color: #4a0404;
     font-size: 15px;
     float: left;
+    padding-left: 2rem;
 }
 
 .nav-bar {
+    /* display: flex; */
     float: right;
+    padding: 1rem;
     padding-right: 1cm;
 }
 
 .topnav {
-    color: brown;
+    color: #4a0404;
     margin: 10px;
-    padding: 20px;
+    padding: 0.5rem 1rem;
     font-size: 20px;
 }
 
@@ -30,3 +35,27 @@ nav {
     font-weight: bolder;
     text-decoration: underline;
 }
+
+article h3 {
+    font-size: 25px;
+    color: #7C3030;
+    padding-left: 5rem;
+    /* position: ; */
+}
+
+article figure {
+    position: absolute;
+}
+
+.bio {
+    display: flex;
+    font-size: 18px;
+    float: right;
+    padding-left: 25rem;
+    color: #7C3030;
+
+}
+
+
+
+/* Brown colors =  */
