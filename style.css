@@ -17,7 +17,6 @@ header {
 }
 
 .nav-bar {
-    /* display: flex; */
     float: right;
     padding: 1rem;
     padding-right: 1cm;
@@ -59,4 +58,12 @@ article figure {
     font-size: 20px;
     color: #7C3030;
     gap: 2px;
+}
+
+#portfolio-body {
+    margin-top: 10rem;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    color: #7C3030;
 }
