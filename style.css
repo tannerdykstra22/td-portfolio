@@ -67,3 +67,15 @@ article figure {
     font-size: 20px;
     color: #7C3030;
 }
+
+/* .programming-languages ul was used before */
+.programming-languages ul{
+    color: #7C3030;
+    font-size: 20px;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+
+
+
+}
